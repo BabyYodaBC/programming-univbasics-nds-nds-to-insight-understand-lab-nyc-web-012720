@@ -15,7 +15,8 @@ def print_first_directors_movie_titles
   result = {}
   first_dir_mta = directors_database[0][:name]
   movies = directors_database[0][:movies]
-  while movies < .length do
+  movie_index = 0
+  while movie_index < movies.length do
     
   
 end
