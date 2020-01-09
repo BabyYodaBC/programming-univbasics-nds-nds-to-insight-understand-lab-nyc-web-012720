@@ -13,6 +13,6 @@ pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
   result = {}
-  first_dir_mta = 
+  first_dir_mta = directors_database[0][:name]
   
 end
